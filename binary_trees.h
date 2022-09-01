@@ -1,5 +1,5 @@
-#ifndef BINARY_TREES
-#define BINARY_TREES
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
 
 
 #include <stdio.h>
@@ -34,3 +34,5 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+#endif
